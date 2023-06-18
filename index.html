@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        <title>LuckTree</title>
+    </head>
+
+    <body>
+        <div class="nav">
+            <h2>LuckTree</h2>
+            <div class="menu">
+              <p>About us</p>
+              <p>Our Mission</p>
+              <p>Contact us</p>
+            </div>
+          </div>
+          
+          <div class="hero">
+            <div class="hero-text">
+              <h1 style="text-align: center; align-self: center; position: relative; align-items: center;">LuckTree Forever.</h1>
+              <p></p>
+              <div class="buttons">
+                <a class="button primary" href="https://discord.gg/HVugrk6u6a" target="_blank">Discord Server</a>
+                <a class="button secondary" href="#" target="_blank">YouTube</a>
+              </div>
+              
+            </div>
+            <div class="blob-cont">
+              <div class="yellow blob"></div>
+              <div class="red blob"></div>
+              <div class="green blob"></div>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <svg>
+            <filter id='noiseFilter'>
+              <feTurbulence 
+                type='fractalNoise' 
+                baseFrequency='0.6' 
+                stitchTiles='stitch'/>
+               <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+                  <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
+                  <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
+            </filter>
+            
+          </svg>
+    </body>
+</html>
